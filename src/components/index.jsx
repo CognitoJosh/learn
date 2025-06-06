@@ -39,7 +39,7 @@ class userLog extends Component {
 
    render () {
      return (
-        <div className='main-body'>
+        <div id="root" className='main-body'>
          <div className='Loginner'>
             <h1 className='Logwelcome'>Welcome Back!</h1>
         <form onSubmit={this.userSubmit} className='main-fill'>
